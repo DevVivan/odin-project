@@ -10,7 +10,7 @@ This is a log of all projects completed as assigned by [*The Odin Project curric
 
 | **Project** | **Live Preview** | **Source Code** |
 | :------------ | :--------: | :---------: |
-| #3 Rock Paper Scissors | [Preview](https://devvivan.github.io/rock-paper-scissors/) | [Github](https://github.com/DevVivan/rock-paper-scissors) |
-| #2 Landing Page | [Preview](https://devvivan.github.io/landing-page/) | [Github](https://github.com/DevVivan/landing-page) |
+| #3 Rock Paper Scissors | [Preview](https://devvivan.github.io/odin-rock-paper-scissors/) | [Github](https://github.com/DevVivan/odin-rock-paper-scissors) |
+| #2 Landing Page | [Preview](https://devvivan.github.io/odin-landing-page/) | [Github](https://github.com/DevVivan/odin-landing-page) |
 | #1 Recipes | [Preview](https://devvivan.github.io/odin-recipes/) | [Github](https://github.com/DevVivan/odin-recipes) |
 
