@@ -1,0 +1,3 @@
+[submodule "javascript-exercises"]
+	path = javascript-exercises
+	url = ./repos/odin-project/javascript-exercises/
