@@ -17,3 +17,14 @@ let user = new Object();
 ```javascript 
 let user = {};
 ```
+
+The object literal syntax is often used and properties can be stored in the form of 'key:value' pairs inside `{...}`. For instance, an object created using the 'object literal' syntax with a couple of properties would look like the example below. Inside the `user` object, there are two 'key:value' pairs with the name `'name'` & value `'John'`, and the name `'age'` & value `30` respectively.
+
+```javascript
+let user = {     // creation of object
+  name: "John",  // key "name" should store the value "John"
+  age: 30        // key "age" should store the value 30
+};
+```
+
+
