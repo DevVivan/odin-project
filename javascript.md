@@ -1,12 +1,6 @@
 # JavaScript Notes
 
-- [JavaScript Notes](#javascript-notes)
-  * [Objects](#objects)
-    + [Using 'object constructor' syntax](#using--object-constructor--syntax)
-    + [Using 'object literal' syntax](#using--object-literal--syntax)
-    + [Adding properties to an object](#adding-properties-to-an-object)
-    + [Removing properties from an object](#removing-properties-from-an-object)
-    + [Multiword property names](#multiword-property-names)
+- [Objects](#objects)
 
 ## Objects
 
