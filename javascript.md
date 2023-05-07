@@ -4,6 +4,23 @@
 
 - [Objects](#objects)
 
+## Arrays
+
+### Array Methods
+
+#### Array.prototype.filter()
+
+The `filter` method can be used to filter down to just the elements from a given array that pass the test implemented by the provided function.
+
+```javascript
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(word => word.length > 6);
+
+console.log(result);
+// Expected output: Array ["exuberant", "destruction", "present"]
+```
+
 ## Objects
 
 Objects are one of the eight data types in JavaScript that are used to store keyed connections of data. They usually contain an optional list of properties - a property being a '`key:value` pair'.
