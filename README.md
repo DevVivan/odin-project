@@ -2,6 +2,13 @@
 
 This is a repository for the tracking of my progress on [*The Odin Project*](https://www.theodinproject.com/dashboard). The Odin Project (TOP) is a free open source coding curriculum for full-stack web development training. The program offers courses that cover the basics of web development, JavaScript and Ruby on Rails.
 
+## Notes
+
+- [HTML](html.md)
+- [CSS](css.md)
+- [JavaScript](javascript.md)
+- [Git](git.md)
+
 ## List of Projects
 
 This is a log of all projects completed as assigned by [*The Odin Project curriculum*](https://www.theodinproject.com/dashboard).
