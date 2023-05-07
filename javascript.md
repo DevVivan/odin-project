@@ -4,12 +4,12 @@
 
 - [Arrays](#arrays)
   * [Array Methods](#array-methods)
-    + [Array.prototype.filter()](#arrayprototypefilter)
 - [Objects](#objects)
 
 ## Arrays
 
 ### Array Methods
+<hr>
 
 #### Array.prototype.filter()
 
