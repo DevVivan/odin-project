@@ -6,12 +6,6 @@
   * [Array Methods](#array-methods)
     + [Array.prototype.filter()](#arrayprototypefilter)
 - [Objects](#objects)
-  * [Adding properties to an object](#adding-properties-to-an-object)
-  * [Removing properties from an object](#removing-properties-from-an-object)
-  * [Square brackets](#square-brackets)
-  * [Property existence test](#property-existence-test)
-  * ['For in' loop](#-for-in--loop)
-  * [What is "this"?](#what-is--this--)
 
 ## Arrays
 
