@@ -24,6 +24,20 @@ console.log(result);
 // Expected output: Array ["exuberant", "destruction", "present"]
 ```
 
+#### Array.prototype.map()
+
+The `map()` method creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+```javascript
+const array1 = [1, 4, 9, 16];
+
+// Pass a function to map
+const map1 = array1.map(x => x * 2);
+
+console.log(map1);
+// Expected output: Array [2, 8, 18, 32]
+```
+
 ## Objects
 
 Objects are one of the eight data types in JavaScript that are used to store keyed connections of data. They usually contain an optional list of properties - a property being a '`key:value` pair'.
