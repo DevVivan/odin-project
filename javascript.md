@@ -4,7 +4,7 @@
 
 - [Arrays](#arrays)
   * [Array Methods](#array-methods)
-    + [Array.prototype.filter()](#arrayprototypefilter--)
+    + [Array.prototype.filter()](#arrayprototypefilter)
 - [Objects](#objects)
   * [Adding properties to an object](#adding-properties-to-an-object)
   * [Removing properties from an object](#removing-properties-from-an-object)
