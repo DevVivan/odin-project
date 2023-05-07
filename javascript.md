@@ -2,6 +2,8 @@
 
 ## Table Of Contents
 
+- [Arrays] (#arrays)
+ - [Array Methods] (#arraymethods)
 - [Objects](#objects)
 
 ## Arrays
