@@ -74,3 +74,57 @@ alert(user["likes birds"]); // true
 delete user["likes birds"];
 ```
 
+### Property existence test
+
+To check if a property is `in` an object, we can use the `in` operator.
+
+```javascript 
+let user = { name: "John", age: 30 };
+
+alert( "age" in user ); // true, user.age exists
+alert( "blabla" in user ); // false, user.blabla doesn't exist
+```
+
+### 'For in' loop 
+
+```javascript
+for (prop in object) {
+  // executes the body for each key among object properties
+}
+```
+
+Keep in mind that when alerting an object, integer properties will be sorted/ordered, and others will appear in creation order.
+
+```javascript
+let codes = {
+  "49": "Germany",
+  "41": "Switzerland",
+  "44": "Great Britain",
+  // ..,
+  "1": "USA"
+};
+
+for (let code in codes) {
+  alert(code); // 1, 41, 44, 49
+}
+```
+
+### What is "this"?
+
+The `this` keyword refers to the current object the code is being written inside. For instance:
+
+```javascript
+const person1 = {
+  name: "Chris",
+  introduceSelf() {
+    console.log(`Hi! I'm ${this.name}.`);
+  },
+};
+
+const person2 = {
+  name: "Deepti",
+  introduceSelf() {
+    console.log(`Hi! I'm ${this.name}.`);
+  },
+};
+```
