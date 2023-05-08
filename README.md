@@ -4,9 +4,9 @@ This is a repository for the tracking of my progress on [*The Odin Project*](htt
 
 ## Notes
 
-- [HTML](html.md)
-- [CSS](css.md)
-- [JavaScript](javascript.md)
+- [HTML](HTML/html.md)
+- [CSS](CSS/css.md)
+- [JavaScript](JavaScript/javascript.md)
 - [Git](git.md)
 
 ## List of Projects
