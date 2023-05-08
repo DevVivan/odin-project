@@ -11,6 +11,17 @@
 ### Array Methods
 <hr>
 
+| Method Name     | Syntax                      | Function                                                                                               |
+|-----------------|-----------------------------|--------------------------------------------------------------------------------------------------------|
+| Filter          | Array.prototype.filter()    | To create a new array filled with elements that pass a test provided by a function                     |
+| Map             | Array.prototype.map()       | To iterate over an array and perform a transformation or computation.                                  |
+| Sort            | Array.prototype.sort()      | To return a sorted list of the specified iterable object                                               |
+| Reduce          | Array.prototype.reduce()    | To reduce an array to a single value by passing a callback function on each element of the array       |
+| Some            | Array.prototype.some()      | To test whether at least one element in the array passes the test implemented by the provided function |
+| Every           | Array.prototype.every()     | To check if all the elements of the array satisfy the callback function condition or not.              |
+| Find            | Array.prototype.find()      | To return the first element in the provided array that satisfies the provided testing function.        |
+| Find Index      | Array.prototype.findIndex() | To return the index of the first element in an array that satisfies the provided testing function.     |
+
 #### Array.prototype.filter()
 
 The `filter()` method can be to loop through an array and test for *something* and then create a new array with only the matching items. Essentially, it creates a news array filled with the elements that pass a test provided by a function.
