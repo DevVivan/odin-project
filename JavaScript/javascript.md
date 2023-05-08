@@ -53,6 +53,14 @@ text = text.replaceAll(/cats/g,"dogs");
 
 To convert a string to an array, we can use the `split()` method. 
 
+```javascript
+text.split(",")    // Split on commas
+text.split(" ")    // Split on spaces
+text.split("|")    // Split on pipe
+
+text.split("") // will return an array of **SINGLE** characters
+```
+
 #### Other methods
 
 - `concat()` - To join two or more strings.
