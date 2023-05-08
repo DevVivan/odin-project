@@ -17,9 +17,46 @@
 
 There are 3 main ways to extract parts from a string. These are:
 
+- `charAt(position)` - returns the character at a specified index (position) in a string.
+- `charCodeAt(position)` - returns the unicode of the character at a specified index in a string.
+- Property Access [] 
+
+#### Extracting string characters
+
+There are 3 main ways to extract parts from a string. These are:
+
 - `slice(start, end)` - extracts a part of a string and returns the extracted part in a new string.
 - `substring(start, end)` - similar to slice, but, start and end values less than 0 are treated as 0 in substring().
 - `substr(start, length)` - similar to slice, but, the second parameter specifies the length of the extracted part.
+
+#### Replacing a string's content
+
+- 'replace()` // only replaces the first match`
+- `replaceAll()`
+
+```javascript
+// replace()
+let text = "Please visit Microsoft and Microsoft!";
+let newText = text.replace("Microsoft", "W3Schools");
+
+// replaceAll()
+text = text.replaceAll(/Cats/g,"Dogs");
+text = text.replaceAll(/cats/g,"dogs");
+```
+
+#### Converting a string to uppercase or lowercase
+
+- A string is converted to upper case with `toUpperCase()`
+- A string is converted to lower case with `toLowerCase()`
+
+#### Other methods
+
+- `concat()` - To join two or more strings.
+- `trim()` - The trim() method removes whitespace from both sides of a string.
+- `trimStart()` - The trimStart() method works like trim(), but removes whitespace only from the start of a string.
+- `trimEnd()` - The trimEnd() method works like trim(), but removes whitespace only from the end of a string.
+- `padStart()` - The padStart() method pads a string from the start.
+- `padEnd()` - The padEnd() method pads a string from the end.
 
 ## Arrays
 
