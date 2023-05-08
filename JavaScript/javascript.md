@@ -49,7 +49,7 @@ text = text.replaceAll(/cats/g,"dogs");
 - A string is converted to upper case with `toUpperCase()`
 - A string is converted to lower case with `toLowerCase()`
 
-#### Converting a string to an array
+#### Converting a string to an array and back
 
 To convert a string to an array, we can use the `split()` method. 
 
@@ -59,6 +59,21 @@ text.split(" ")    // Split on spaces
 text.split("|")    // Split on pipe
 
 text.split("") // will return an array of **SINGLE** characters
+```
+
+To convert an array to a string, we can use the `array.prototype.join()` method.
+
+```javascript
+const elements = ['Fire', 'Air', 'Water'];
+
+console.log(elements.join());
+// Expected output: "Fire,Air,Water"
+
+console.log(elements.join(''));
+// Expected output: "FireAirWater"
+
+console.log(elements.join('-'));
+// Expected output: "Fire-Air-Water"
 ```
 
 #### Other methods
