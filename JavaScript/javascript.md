@@ -36,6 +36,7 @@ There are 3 main ways to extract parts from a string. These are:
 | Every           | Array.prototype.every()     | To check if all the elements of the array satisfy the callback function condition or not.              |
 | Find            | Array.prototype.find()      | To return the first element in the provided array that satisfies the provided testing function.        |
 | Find Index      | Array.prototype.findIndex() | To return the index of the first element in an array that satisfies the provided testing function.     |
+| Reverse          | Array.prototype.reverse()    | To reverse an array in place and returns the reference to the same array, the first array element now becoming the last, and the last array element becoming the first.
 
 #### Array.prototype.filter()
 
