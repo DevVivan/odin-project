@@ -13,7 +13,7 @@
 
 #### Array.prototype.filter()
 
-The `filter()` method can be used to filter down to just the elements from a given array that pass the test implemented by the provided function.
+The `filter()` method can be to loop through an array and test for *something* and then create a new array with only the matching items.
 
 ```javascript
 const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
@@ -26,7 +26,7 @@ console.log(result);
 
 #### Array.prototype.map()
 
-The `map()` method creates a new array populated with the results of calling a provided function on every element in the calling array.
+The `map()` method can be to *do something* to every item in an array and then create a new array with the changed items.
 
 ```javascript
 const array1 = [1, 4, 9, 16];
