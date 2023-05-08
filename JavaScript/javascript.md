@@ -49,6 +49,10 @@ text = text.replaceAll(/cats/g,"dogs");
 - A string is converted to upper case with `toUpperCase()`
 - A string is converted to lower case with `toLowerCase()`
 
+#### Converting a string to an array
+
+To convert a string to an array, we can use the `split()` method. 
+
 #### Other methods
 
 - `concat()` - To join two or more strings.
