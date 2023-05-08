@@ -19,7 +19,7 @@ There are 3 main ways to extract parts from a string. These are:
 
 - `charAt(position)` - returns the character at a specified index (position) in a string.
 - `charCodeAt(position)` - returns the unicode of the character at a specified index in a string.
-- Property Access [] 
+- Property Access [ ] 
 
 #### Extracting string characters
 
@@ -31,7 +31,7 @@ There are 3 main ways to extract parts from a string. These are:
 
 #### Replacing a string's content
 
-- 'replace()` // only replaces the first match`
+- 'replace() // only replaces the first match`
 - `replaceAll()`
 
 ```javascript
