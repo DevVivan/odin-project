@@ -31,7 +31,7 @@ There are 3 main ways to extract parts from a string. These are:
 
 #### Replacing a string's content
 
-- 'replace() // only replaces the first match`
+- `replace() // only replaces the first match`
 - `replaceAll()`
 
 ```javascript
