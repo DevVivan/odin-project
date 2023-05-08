@@ -87,7 +87,20 @@ const sumWithInitial = array1.reduce(
 
 console.log(sumWithInitial);
 // Expected output: 10
+```
 
+#### Array.prototype.some()
+
+The `some()` method is used to check whether any element in an array passes a provided function. Essentially, it tests whether at least one element in the array passes the test implemented as provided by the callback function.
+
+```javascript
+const array = [1, 2, 3, 4, 5];
+
+// Checks whether an element is even
+const even = (element) => element % 2 === 0;
+
+console.log(array.some(even));
+// Expected output: true
 ```
 
 ## Objects
