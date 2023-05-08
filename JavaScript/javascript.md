@@ -2,6 +2,8 @@
 
 ## Table Of Contents
 
+- [Strings](#strings)
+  * [String Methods](#string-methods)
 - [Arrays](#arrays)
   * [Array Methods](#array-methods)
 - [Objects](#objects)
