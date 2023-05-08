@@ -13,7 +13,7 @@
 
 #### Array.prototype.filter()
 
-The `filter()` method can be to loop through an array and test for *something* and then create a new array with only the matching items.
+The `filter()` method can be to loop through an array and test for *something* and then create a new array with only the matching items. Essentially, it creates a news array filled with the elements that pass a test provided by a function.
 
 ```javascript
 const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
@@ -26,7 +26,7 @@ console.log(result);
 
 #### Array.prototype.map()
 
-The `map()` method can be to *do something* to every item in an array and then create a new array with the changed items.
+The `map()` method can be to *do something* to every item in an array and then create a new array with the changed items. Essentially, it is used to iterate over an array and manipulate or change the items.
 
 ```javascript
 const array1 = [1, 4, 9, 16];
@@ -40,7 +40,7 @@ console.log(map1);
 
 #### Array.prototype.sort()
 
-The `sort()` method sorts the elements of an array in place and returns the reference to the same array, now sorted.
+The `sort()` method takes an array and, well, *sorts it*. Essentially, itn sorts the elements of an array in place and returns the reference to the same array, now sorted.
 
 ```javascript
 const items = [
@@ -73,7 +73,7 @@ items.sort((a, b) => {
 
 #### Array.prototype.reduce()
 
-The `reduce()` method executes a user-supplied "reducer" callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value.
+The `reduce()` method is used to *reduce* a complete array into a single value by performing some tasks to each element in the array. Essentially, it executes a user-supplied "reducer" callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value.
 
 ```javascript
 const array1 = [1, 2, 3, 4];
