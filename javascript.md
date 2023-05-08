@@ -105,7 +105,7 @@ console.log(array.some(even));
 
 #### Array.prototype.every()
 
-The `some()` method is used to check whether any element in an array passes a provided function. Essentially, it tests whether at least one element in the array passes the test implemented as provided by the callback function.
+The `every()` method is used to check whether any element in an array passes a provided function. Essentially, it tests whether at least one element in the array passes the test implemented as provided by the callback function.
 
 ```javascript
 const isBelowThreshold = (currentValue) => currentValue < 40;
@@ -114,6 +114,19 @@ const array1 = [1, 30, 39, 29, 10, 13];
 
 console.log(array1.every(isBelowThreshold));
 // Expected output: true
+```
+
+#### Array.prototype.find()
+
+The `find()` method returns the first element in the provided array that satisfies the provided testing function. It loops through an array, checks whether the element passes the provided function, and the **FIRST** element it finds that satisfies it, is the element provided.
+
+```javascript
+const array1 = [5, 12, 8, 130, 44];
+
+const found = array1.find(element => element > 10);
+
+console.log(found);
+// Expected output: 12
 ```
 
 ## Objects
