@@ -6,6 +6,19 @@
   * [Array Methods](#array-methods)
 - [Objects](#objects)
 
+## Strings
+
+### String Methods
+<hr>
+
+#### Extracting string parts
+
+There are 3 main ways to extract parts from a string. These are:
+
+- `slice(start, end)` - extracts a part of a string and returns the extracted part in a new string.
+- `substring(start, end)` - similar to slice, but, start and end values less than 0 are treated as 0 in substring().
+- `substr(start, length)` - similar to slice, but, the second parameter specifies the length of the extracted part.
+
 ## Arrays
 
 ### Array Methods
