@@ -13,6 +13,13 @@ This is a repository for the tracking of my progress on [*The Odin Project*](htt
 
 This is a log of all projects completed as assigned by [*The Odin Project curriculum*](https://www.theodinproject.com/dashboard).
 
+### Intermediate HTML & CSS
+
+| **Project** | **Live Preview** | **Source Code** |
+| :------------ | :--------: | :---------: |
+| #6 Sign-up Form | [Preview]() | [Github]() |
+
+
 ### Foundations
 
 | **Project** | **Live Preview** | **Source Code** |
