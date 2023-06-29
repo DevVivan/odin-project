@@ -66,4 +66,5 @@ We can also give tables a caption by putting them inside a `<caption>` element a
 </table>
 ```
 
+### Adding table structure
 
