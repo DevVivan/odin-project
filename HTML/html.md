@@ -43,6 +43,12 @@ Would appear somewhat like this:
 
 <img width="498" alt="Screenshot 2023-06-28 at 8 36 12 PM" src="https://github.com/DevVivan/odin-project/assets/130225932/bef37bb0-df4d-43c3-8e91-d7513c07d853">
 
+We can also use the `rowspan` and `colspan` attributes in our different table tags to make cells span multiple rows or columns.
 
+### Col and Colgroup
+
+The `<colgroup>` tag specifies a group of one or more columns in a table for formatting. It is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.
+
+To define different properties to a column within a `<colgroup>`, use the `<col>` tag within the `<colgroup>` tag.
 
 
