@@ -5,6 +5,7 @@
 - [HTML Tables](#html-tables)
   * [Col and Colgroup](#col-and-colgroup)
   * [Captions](#captions)
+  * [Adding Table Structure](#adding-table-structure)
 
 ## HTML Tables
 
@@ -66,5 +67,10 @@ We can also give tables a caption by putting them inside a `<caption>` element a
 </table>
 ```
 
-### Adding table structure
+### Adding Table Structure
 
+As tables gradually become more and more complex, it is best to add table structure using `<thead>`, `<tfoot>`, and `<tbody>`, which all allow you to mark up a header, footer, and body section for tables.
+
+- The <thead> element must wrap the part of the table that is the header — this is usually the first row containing the column headings, but this is not necessarily always the case.
+- The <tfoot> element needs to wrap the part of the table that is the footer — this might be a final row with items in the previous rows summed, for example. 
+- The <tbody> element needs to wrap the other parts of the table content that aren't in the table header or footer. 
