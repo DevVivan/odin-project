@@ -4,6 +4,7 @@
 
 - [HTML Tables](#html-tables)
   * [Col and Colgroup](#col-and-colgroup)
+  * [Captions](#captions)
 
 ## HTML Tables
 
@@ -50,5 +51,19 @@ We can also use the `rowspan` and `colspan` attributes in our different table ta
 The `<colgroup>` tag specifies a group of one or more columns in a table for formatting. It is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.
 
 To define different properties to a column within a `<colgroup>`, use the `<col>` tag within the `<colgroup>` tag.
+
+### Captions
+
+We can also give tables a caption by putting them inside a `<caption>` element and nesting that inside the `<table>` element. These captions should be put directly below the opening `<table>` tag. For example:
+
+```HTML
+<table>
+  <caption>
+    Dinosaurs in the Jurassic period
+  </caption>
+
+  …
+</table>
+```
 
 
