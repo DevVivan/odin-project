@@ -3,7 +3,7 @@
 ## Table Of Contents
 
 - [HTML Tables](#html-tables)
-  * [String Methods](#string-methods)
+  * [Col and Colgroup](#col-and-colgroup)
 
 ## HTML Tables
 
