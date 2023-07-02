@@ -44,3 +44,13 @@ Relative length units are relative to something else, perhaps the size of the pa
 
 Between `em` and `rem`, `rem` should always be used as a rule of thumb for font sizing.
 
+### Percentages, numbers and functions
+
+We can also use percentages as they are always set relative to some other value. For example, if we set an element's `font-size` as a percentage, it will be a percentage of the `font-size` of the element's parent. If we use a percentage for a `width` value, it will be a percentage of the `width` of the parent.
+
+We can also use numbers as some value types, an example being the `opacity` property, which controls the opacity of an element (how transparent it is). This property accepts a number between `0` (fully transparent) and `1` (fully opaque).
+
+Furthermore, we can use functions within our CSS to give us the ability for doing simple calculations. For example, the `calc()` CSS function - which is particularly useful if we want to work out values that we can't define when writing the CSS for projects, and need the browser to work out for us at runtime.
+
+
+
