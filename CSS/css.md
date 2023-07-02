@@ -59,6 +59,34 @@ Furthermore, we can use functions within our CSS to give us the ability for doin
 
 We typically use the `font-style` for italics. For example, we should use `font-style: italic;` if italics is required for styling purposes. As a rule of thumb, we should only aim to use the `em` element if italics is required for emphasis.
 
+### letter-spacing
+
+`letter-spacing` is another CSS text style we can use to for, as the name suggests, change the space between letters in a word. For example, the following code:
+
+```CSS
+h1 {
+  font-family: 'COUTUREBold';
+  margin: 0;
+  font-size: 38px;
+}
+
+.wide {
+  font-size: 24px;
+  letter-spacing: .5em;
+}
+
+.narrow {
+  font-size: 48px;
+  letter-spacing: -.15em;
+}
+```
+
+Would reflect something like this:
+
+![Screenshot 2023-07-02 at 4 51 19 PM](https://github.com/DevVivan/odin-project/assets/130225932/53d385bb-6b7e-4505-821d-a3e3258bf7f1)
+
+
+
 
 
 
