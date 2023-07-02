@@ -89,6 +89,29 @@ Would reflect something like this:
 
 We can also use the `line-height` to adjust spacing between lines in wrapped text. Adding a little line-height can increase readability sometimes.
 
+### text-transform
+
+The `text-transform` property can be used to simply change the case of a given text, for example, from lowercase to uppercase. Syntax:
+
+```CSS
+/* Keyword values */
+text-transform: none;
+text-transform: capitalize;
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: full-width;
+text-transform: full-size-kana;
+
+/* Global values */
+text-transform: inherit;
+text-transform: initial;
+text-transform: revert;
+text-transform: revert-layer;
+text-transform: unset;
+```
+
+
+
 
 
 
