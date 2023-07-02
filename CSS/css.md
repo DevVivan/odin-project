@@ -42,5 +42,5 @@ Relative length units are relative to something else, perhaps the size of the pa
 | vmin | 1% of the viewport's smaller dimension.                                                                                                                                   |
 | vmax | 1% of the viewport's larger dimension.                                                                                                                                    |
 
-Between `em` and `rem`, `rem` should always be used as a rule of thumb.
+Between `em` and `rem`, `rem` should always be used as a rule of thumb for font sizing.
 
