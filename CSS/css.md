@@ -5,6 +5,7 @@
 - [CSS Units](#css-units)
   * [Absolute Units](#absolute-units)
   * [Relative Units](#relative-units)
+- [Text Styles](#text-styles)
 
 ## CSS Units
 
@@ -51,6 +52,13 @@ We can also use percentages as they are always set relative to some other value.
 We can also use numbers as some value types, an example being the `opacity` property, which controls the opacity of an element (how transparent it is). This property accepts a number between `0` (fully transparent) and `1` (fully opaque).
 
 Furthermore, we can use functions within our CSS to give us the ability for doing simple calculations. For example, the `calc()` CSS function - which is particularly useful if we want to work out values that we can't define when writing the CSS for projects, and need the browser to work out for us at runtime.
+
+## Text Styles
+
+### font-style
+
+We typically use the `font-style` for italics. For example, we should use `font-style: italic;` if italics is required for styling purposes. As a rule of thumb, we should only aim to use the `em` element if italics is required for emphasis.
+
 
 
 
