@@ -141,8 +141,15 @@ text-shadow: unset;
 
 ### ellipsis using `text-overflow`
 
+With this `text-overflow` property, we can truncate overflowing text with an ellipsis. For example:
 
-
+```CSS
+.overflowing {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+```
 
 
 
