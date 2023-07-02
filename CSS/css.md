@@ -85,6 +85,10 @@ Would reflect something like this:
 
 ![Screenshot 2023-07-02 at 4 51 19 PM](https://github.com/DevVivan/odin-project/assets/130225932/53d385bb-6b7e-4505-821d-a3e3258bf7f1)
 
+### line-height
+
+We can also use the `line-height` to adjust spacing between lines in wrapped text. Adding a little line-height can increase readability sometimes.
+
 
 
 
