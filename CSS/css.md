@@ -139,6 +139,8 @@ text-shadow: revert-layer;
 text-shadow: unset;
 ```
 
+### ellipsis using `text-overflow`
+
 
 
 
