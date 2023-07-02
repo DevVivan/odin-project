@@ -110,6 +110,35 @@ text-transform: revert-layer;
 text-transform: unset;
 ```
 
+### text-shadow
+
+The `text-shadow` property is best used sparingly, but it creates a great effect when used well. It essentially adds a shadow around the text in the selected element and is useful for headings or other presentational text. The syntax:
+
+```CSS
+/* offset-x | offset-y | blur-radius | color */
+text-shadow: 1px 1px 2px black;
+
+/* color | offset-x | offset-y | blur-radius */
+text-shadow: #fc0 1px 0 10px;
+
+/* offset-x | offset-y | color */
+text-shadow: 5px 5px #558abb;
+
+/* color | offset-x | offset-y */
+text-shadow: white 2px 5px;
+
+/* offset-x | offset-y
+/* Use defaults for color and blur-radius */
+text-shadow: 5px 10px;
+
+/* Global values */
+text-shadow: inherit;
+text-shadow: initial;
+text-shadow: revert;
+text-shadow: revert-layer;
+text-shadow: unset;
+```
+
 
 
 
