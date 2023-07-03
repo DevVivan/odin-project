@@ -6,6 +6,7 @@
   * [Absolute Units](#absolute-units)
   * [Relative Units](#relative-units)
 - [Text Styles](#text-styles)
+- [CSS Properties](#css-properties)
 
 ## CSS Units
 
@@ -150,6 +151,8 @@ With this `text-overflow` property, we can truncate overflowing text with an ell
   text-overflow: ellipsis;
 }
 ```
+
+## CSS Properties
 
 
 
