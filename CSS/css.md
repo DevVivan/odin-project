@@ -154,7 +154,17 @@ With this `text-overflow` property, we can truncate overflowing text with an ell
 
 ## CSS Properties
 
+### background
 
+The `background` property is a shorthand for the following CSS properties:
 
+- `background-attachment`
+- `background-clip`
+- `background-color`
+- `background-image`
+- `background-origin`
+- `background-position`
+- `background-repeat`
+- `background-size`
 
 
