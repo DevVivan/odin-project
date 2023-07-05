@@ -177,3 +177,24 @@ The `border` property is a shorthand for 3 CSS properties:
 
 `border-radius` can be used to create rounded corners on elements. 
 
+### overflow
+
+The syntax for using the `overflow` property:
+
+```CSS
+/* Keyword values */
+overflow: visible;
+overflow: hidden;
+overflow: clip;
+overflow: scroll;
+overflow: auto;
+overflow: hidden visible;
+
+/* Global values */
+overflow: inherit;
+overflow: initial;
+overflow: revert;
+overflow: revert-layer;
+overflow: unset;
+```
+
