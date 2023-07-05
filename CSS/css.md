@@ -167,4 +167,13 @@ The `background` property is a shorthand for the following CSS properties:
 - `background-repeat`
 - `background-size`
 
+### border & border-radius
+
+The `border` property is a shorthand for 3 CSS properties:
+
+- `border-color`
+- `border-style`
+- `border-width`
+
+`border-radius` can be used to create rounded corners on elements. 
 
