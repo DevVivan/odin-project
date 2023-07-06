@@ -198,3 +198,16 @@ overflow: revert-layer;
 overflow: unset;
 ```
 
+### Advanced Selectors
+
+#### Combinators
+
+Alongside the descendant combinator, there are a few more CSS combinators as such:
+
+- `>` - The child combinator
+- `+` - The adjacent sibling combinator
+- `~` - The general sibling combinator
+
+
+
+
