@@ -7,6 +7,8 @@
   * [Relative Units](#relative-units)
 - [Text Styles](#text-styles)
 - [CSS Properties](#css-properties)
+- [Advanced Selectos](#advanced-selectors)
+  * [Combinators](#combinators)
 
 ## CSS Units
 
