@@ -9,7 +9,7 @@
 - [CSS Properties](#css-properties)
 - [Advanced Selectos](#advanced-selectors)
   * [Combinators](#combinators)
-  * [Pseudo-classes and Pseudo-elements](#pseudo--classes-and-pseudo--elements)
+  * [Pseudo-classes and Pseudo-elements](#pseudo-classes-and-pseudo-elements)
 
 ## CSS Units
 
