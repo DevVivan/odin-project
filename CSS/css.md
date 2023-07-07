@@ -65,7 +65,7 @@ We typically use the `font-style` for italics. For example, we should use `font-
 
 ### letter-spacing
 
-`letter-spacing` is another CSS text style we can use to for, as the name suggests, change the space between letters in a word. For example, the following code:
+`letter-spacing` is another CSS text style we can use to, as the name suggests, change the space between letters in a word. For example, the following code:
 
 ```CSS
 h1 {
@@ -91,7 +91,7 @@ Would reflect something like this:
 
 ### line-height
 
-We can also use the `line-height` to adjust spacing between lines in wrapped text. Adding a little line-height can increase readability sometimes.
+We can also use the `line-height` to adjust the spacing between lines in wrapped text. Adding a little line height can increase readability sometimes.
 
 ### text-transform
 
