@@ -210,6 +210,9 @@ Alongside the descendant combinator, there are a few more CSS combinators as suc
 - `+` - The adjacent sibling combinator
 - `~` - The general sibling combinator
 
+#### Pseudo-classes and pseudo-elements
+
+Pseudo-classes are selectors that select elements that are in a specific state, e.g. they are the first element of their type, or they are being hovered over by the mouse pointer. They are keywords that start with a single colon. For example, `:hover` is a pseudo-class.
 
 
 
