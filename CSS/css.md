@@ -33,11 +33,11 @@ Most of these units are more useful when used for print, rather than screen outp
 
 ### Relative Units
 
-Relative length units are relative to something else, perhaps the size of the parent element's font, or the size of the viewport. The benefit of using relative units is that with some careful planning we can make it so the size of text or other elements scales relative to everything else on the page. Some examples of the most useful relative units are as follows:
+Relative length units are relative to something else, perhaps the size of the parent element's font, or the viewport's size. The benefit of using relative units is that with some careful planning, we can make it so the size of text or other elements scales relative to everything else on the page. Some examples of the most useful relative units are as follows:
 
 | Unit | Relative to...                                                                                                                                                            |
 |------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| em   | The font size of the parent, in the case of typographical properties like `font size`, and font size of the element itself, in the case of other properties like `width`. |
+| em   | The font size of the parent, in the case of typographical properties like `font size`, and the font size of the element itself, in the case of other properties like `width`. |
 | rem  | The font size of the root element.                                                                                                                                        |
 | ex   | The x-height of the element's font.                                                                                                                                       |
 | ch   | The advance measure (width) of the glyph "0" of the element's font.                                                                                                       |
@@ -55,7 +55,7 @@ We can also use percentages as they are always set relative to some other value.
 
 We can also use numbers as some value types, an example being the `opacity` property, which controls the opacity of an element (how transparent it is). This property accepts a number between `0` (fully transparent) and `1` (fully opaque).
 
-Furthermore, we can use functions within our CSS to give us the ability for doing simple calculations. For example, the `calc()` CSS function - which is particularly useful if we want to work out values that we can't define when writing the CSS for projects, and need the browser to work out for us at runtime.
+Furthermore, we can use functions within our CSS to give us the ability for doing simple calculations. For example, the `calc()` CSS function - is particularly useful if we want to work out values that we can't define when writing the CSS for projects, and need the browser to work out for us at runtime.
 
 ## Text Styles
 
