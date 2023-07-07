@@ -236,7 +236,7 @@ On the other hand, pseudo-elements allow us to affect parts of our HTML that are
 - `::marker` allows us to customize the styling of `<li>` elements’ bullets or numbers.
 - `::first-letter` and `::first-line` can be used to give special styling to the first letter or line of some text.
 - `::selection` allows us to change the highlighting when a user selects text on the page.
-
+- We can also use `::before` and `::after` to add extra elements to pages using CSS, instead of HTML.
 
 
 
