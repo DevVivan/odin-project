@@ -238,6 +238,26 @@ On the other hand, pseudo-elements allow us to affect parts of our HTML that are
 - `::selection` allows us to change the highlighting when a user selects text on the page.
 - We can also use `::before` and `::after` to add extra elements to pages using CSS, instead of HTML.
 
+### Attribute Selectors
+
+We can use attribute selectors as a more flexible system to be able to target specific values. Some examples of attribute selectors are as follows:
+
+- `[attribute]` - This general selector will select anything where the given attribute exists. 
+- `selector[attribute]` - Attribute selectors can be combined with other types of selectors, such as class or element selectors.
+- `[attribute="value"]` - `=` can be used to get more specific and to match a specific attribute with a specific value.
+- `[attribute^="value"]` - `^=` Will match strings from the start.
+- `[attribute$="value"]` - `$=` Will match strings from the end.
+- `[attribute*="value"]` - `*=` The wildcard selector will match anywhere inside the string.
+
+
+
+
+
+
+
+
+
+
 
 
 
