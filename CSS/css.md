@@ -231,9 +231,6 @@ These pseudo-classes can be used to select elements based on their position with
 - `:first-child` and `:last-child` will match elements that are the first or last sibling.
 - `:empty` will match elements that have no children at all, and `:only-child` will match elements that don’t have any siblings.
 
-
-
-
-
+On the other hand, pseudo-elements allow us to affect parts of our HTML that aren’t elements at all. For example:
 
 
