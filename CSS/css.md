@@ -215,5 +215,25 @@ Alongside the descendant combinator, there are a few more CSS combinators as suc
 
 Pseudo-classes are selectors that select elements that are in a specific state, e.g. they are the first element of their type, or they are being hovered over by the mouse pointer. They are keywords that start with a single colon. For example, `:hover` is a pseudo-class.
 
+#### Dynamic and User Action Pseudo-classes
+
+These pseudo-classes can make pages feel much more dynamic and interactive.
+
+- `:focus` applies to an element that is currently selected by the user either through selecting it with their cursor or using their keyboard.
+- `:hover` will affect anything under the user’s mouse pointer. 
+- `:active` applies to elements that are currently being clicked, and is especially useful for giving your user feedback that their action had an effect. 
+
+#### Structural Pseudo-classes
+
+These pseudo-classes can be used to select elements based on their position within the DOM.
+
+- `:root` is a special class that represents the very top level of documents. It can be used to place ‘global’ CSS rules that are needed - such as custom properties and CSS variables. 
+- `:first-child` and `:last-child` will match elements that are the first or last sibling.
+- `:empty` will match elements that have no children at all, and `:only-child` will match elements that don’t have any siblings.
+
+
+
+
+
 
 
