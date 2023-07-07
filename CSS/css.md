@@ -9,7 +9,7 @@
 - [CSS Properties](#css-properties)
 - [Advanced Selectos](#advanced-selectors)
   * [Combinators](#combinators)
-  * [Pseudo-classes and Pseudo-elements](#pseudo-classes-and-pseudo-elements)
+  * [Pseudo-classes and Pseudo-elements](#pseudo--classes-and-pseudo--elements)
 
 ## CSS Units
 
@@ -17,7 +17,7 @@ There are many different units that we can use to define sizes in CSS. These can
 
 ### Absolute Units
 
-Absolute units are those that are always the same in any context - they are not relative to anything else, and are generally considered to always be the same size. Some notable examples of absolute length units are as follows:
+Absolute units are those that are always the same in any context - they are not relative to anything else and are generally considered to always be the same size. Some notable examples of absolute length units are as follows:
 
 | Unit | Name                |
 |------|---------------------|
