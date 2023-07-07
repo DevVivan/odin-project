@@ -234,8 +234,10 @@ These pseudo-classes can be used to select elements based on their position with
 On the other hand, pseudo-elements allow us to affect parts of our HTML that aren’t elements at all. They are keywords that start with a double colon. For example:
 
 - `::marker` allows us to customize the styling of `<li>` elements’ bullets or numbers.
-- 
-- 
+- `::first-letter` and `::first-line` can be used to give special styling to the first letter or line of some text.
+- `::selection` allows us to change the highlighting when a user selects text on the page.
+
+
 
 
 
