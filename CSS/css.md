@@ -273,9 +273,20 @@ We can use attribute selectors as a more flexible system to be able to target sp
 
 `sticky` positioning elements will just sit there like a static element, but as we scroll past it, if its parent element has room (usually: extra height) the sticky element will behave as if it’s fixed until that parent element is out of view. 
 
+## CSS Functions
 
+`calc()`
 
+Performs basic arithmetic calculations on numerical values.
 
+`min()`
 
+Calculates the smallest of a list of values.
 
+`max()`
 
+Calculates the largest of a list of values.
+
+`clamp()`
+
+Calculates the central of minimum, central, and maximum values.
