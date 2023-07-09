@@ -13,6 +13,7 @@
   * [Attribute Selectors](#attribute-selectors)
 - [Positioning](#positioning)
 - [CSS Functions](#css-functions)
+- [Custom Properties](#custom-properties)
 
 ## CSS Units
 
@@ -291,3 +292,22 @@ Calculates the largest of a list of values.
 `clamp()`
 
 Calculates the central of minimum, central, and maximum values.
+
+## Custom Properties
+
+We can declare a custom property using a custom property name that begins with a double hyphen (--), and a property value that can be any valid CSS value. For example, using:
+
+```CSS
+element {
+  --main-bg-color: brown;
+}
+```
+
+We can then use the custom property value by specifying the custom property name inside the `var()` function, in place of a regular property value:
+
+```CSS
+element {
+  background-color: var(--main-bg-color);
+}
+```
+
