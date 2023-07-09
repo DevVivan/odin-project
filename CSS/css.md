@@ -253,8 +253,25 @@ We can use attribute selectors as a more flexible system to be able to target sp
 
 ## Positioning
 
+### static
 
+`static` positioning is the default for every single page element. Different elements don’t have different default values for positioning, they all start out as static. Static doesn’t mean much; it just means that the element will flow into the page as it normally would. 
 
+### relative
+
+`relative` positioning means “relative to itself”. If we set `position: relative;` to an element but no other positioning attributes (top, left, bottom or right), it will have no effect on it’s positioning at all, it will be exactly as it would be if you left it as `position: static;` But if we do give it some other positioning attribute, say, `top: 10px;`, it will shift its position 10 pixels down from where it would normally be.
+
+### absolute
+
+`absolute` positioning allows us to place any page element exactly where we want it. We use the positioning attributes top, left, bottom, and right to set the location of the element. Absolute positioning removes elements from the normal document flow, and no space is created for the element in the page layout. The element is also positioned relative to the next parent element. If there is no such parent, it will default all the way back up to the `<html>` element itself meaning it will be placed relative to the page's viewport itself.
+
+### fixed
+
+`fixed` positioning positions elements relative to the viewport, or the browser window itself. The viewport doesn’t change when the window is scrolled, so a fixed-positioned element will stay right where it is when the page is scrolled.
+
+### sticky
+
+`sticky` positioning elements will just sit there like a static element, but as we scroll past it, if its parent element has room (usually: extra height) the sticky element will behave as if it’s fixed until that parent element is out of view. 
 
 
 
