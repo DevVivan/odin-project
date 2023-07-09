@@ -263,7 +263,7 @@ We can use attribute selectors as a more flexible system to be able to target sp
 
 ### absolute
 
-`absolute` positioning allows us to place any page element exactly where we want it. We use the positioning attributes top, left, bottom, and right to set the location of the element. Absolute positioning removes elements from the normal document flow, and no space is created for the element in the page layout. The element is also positioned relative to the next parent element. If there is no such parent, it will default all the way back up to the `<html>` element itself meaning it will be placed relative to the page's viewport itself.
+`absolute` positioning allows us to place any page element exactly where we want it. We use the positioning attributes top, left, bottom, and right to set the location of the element. Absolute positioning removes elements from the normal document flow - meaning it can potentially cover some elements - and no space is created for the element in the page layout. The element is also positioned relative to the next parent element. If there is no such parent, it will default all the way back up to the `<html>` element itself meaning it will be placed relative to the page's viewport itself.
 
 ### fixed
 
