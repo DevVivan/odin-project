@@ -12,6 +12,7 @@
   * [Pseudo-classes and Pseudo-elements](#pseudo-classes-and-pseudo-elements)
   * [Attribute Selectors](#attribute-selectors)
 - [Positioning](#positioning)
+- [CSS Functions](#css-functions)
 
 ## CSS Units
 
