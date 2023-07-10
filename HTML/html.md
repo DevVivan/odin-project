@@ -94,6 +94,8 @@ One of the most versatile form control elements is the `input` element.  It acce
 - Number inputs using `type="number"`
 - Date inputs using `type="date"`
 
+Another element which is not technically an input though but still useful is the `<textarea>` element which allows users to enter a sizeable amount of free-form text, for example, a comment on a review or feedback form. The `<textarea>` element also has `rows` and `cols` attributes usually to allow us to specify an exact size for the `<textarea>` to take. 
+
 We also give our inputs a label to inform users what type of data they are expected to enter. Labels accept a `for` attribute, which associates it with a particular input. The input we want to associate with a label needs an `id` attribute with the same value as the label’s `for` attribute.
 
 This is an example of a basic form with the input element having the type of text and a label titled `First Name:`:
