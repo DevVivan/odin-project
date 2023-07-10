@@ -111,5 +111,37 @@ This is an example of a basic form with the content recapped above:
 </form>
 ```
 
-We should also keep in mind that we can use any of the form control elements outside of the `<form>` element, even when we don’t have a backend server where we can send data.
+We should keep in mind that we can use any of the form control elements outside of the `<form>` element, even when we don’t have a backend server where we can send data.
+
+#### Select Dropdowns
+
+We can also make select dropdowns using the `<select>` element and then by displaying any options within the select element using `<option>` elements. All the option elements should have a value attribute which will be sent to the server when the form is submitted. We can also set one of the options to be the default selected element when the browser first renders the form by giving one of the options the selected attribute:
+
+```HTML
+<select name="Car">
+  <option value="mercedes">Mercedes</option>
+  <option value="tesla">Tesla</option>
+  <option value="volvo" selected>Volvo</option>
+  <option value="bmw">BMW</option>
+  <option value="mini">Mini</option>
+  <option value="ford">Ford</option>
+</select>
+```
+
+We may also split the list of options into groups using the <optgroup> element. The optgroup element takes a label attribute which the browser uses as the label for each group:
+
+```HTML
+<select name="fashion">
+  <optgroup label="Clothing">
+    <option value="t_shirt">T-Shirts</option>
+    <option value="sweater">Sweaters</option>
+    <option value="coats">Coats</option>
+  </optgroup>
+  <optgroup label="Foot Wear">
+    <option value="sneakers">Sneakers</option>
+    <option value="boots">Boots</option>
+    <option value="sandals">Sandals</option>
+  </optgroup>
+</select>
+```
 
