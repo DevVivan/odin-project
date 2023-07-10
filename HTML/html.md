@@ -147,3 +147,15 @@ We may also split the list of options into groups using the <optgroup> element. 
 </select>
 ```
 
+#### Buttons
+
+We can create buttons using the `<button>` element. The content or text we want to have displayed inside the button will go within the opening and closing tags and the button element also accepts a `type` attribute that tells the browser which kind of button it is dealing with. There are three types of buttons available to us:
+
+- Submit buttons using `type="submit"`
+- Reset buttons using `type="reset"`
+- Generic buttons using `type="button"`
+
+
+
+
+
