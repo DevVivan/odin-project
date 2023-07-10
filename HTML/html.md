@@ -155,7 +155,37 @@ We can create buttons using the `<button>` element. The content or text we want 
 - Reset buttons using `type="reset"`
 - Generic buttons using `type="button"`
 
+#### Organizing Forms
 
+For larger forms, users can easily get overwhelmed and discouraged if there are many inputs to fill in. Luckily, we can organize form elements in a couple of ways.
 
+We can use the `fieldset` element to group related form inputs into one logical unit as such:
+
+```HTML
+<fieldset>
+  <label for="first_name">First Name</label>
+  <input type="text" id="first_name" name="first_name">
+
+  <label for="last_name">Last Name</label>
+  <input type="text" id="last_name" name="last_name">
+</fieldset>
+```
+
+We can also use the `legend` element directly after opening fieldset tags to give field sets a heading or caption so the user can see what a grouping of inputs is for. For example:
+
+```HTML
+<fieldset>
+  <legend>Contact Details</legend>
+
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name">
+
+  <label for="phone_number">Phone Number:</label>
+  <input type="tel" id="phone_number" name="phone_number">
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email">
+</fieldset>
+```
 
 
