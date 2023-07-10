@@ -192,3 +192,18 @@ We can also use the `legend` element directly after opening fieldset tags to giv
 
 ### Validating Forms
 
+We can use validations in our HTMl to set specific constraints or rules that determine what data users can enter into an input. Some of the major validation techniques solely through HTML are as follow:
+
+- Required validation by adding the `required` attribute. We should also add an asterisk(*) to the required field label to indicate which fields are required.
+- Text length validations using `minlength` and `maxlength` or a combination of both.
+- Number range validations using `min` and `max` or again, a combination of both.
+- Pattern validations using a regular expression (regex). It is also good practice to use a placeholder attribute to show users an example of the expected pattern they need to enter.
+
+We can also style validations by targeting form controls that have passed or failed validations using the `:valid` and `:invalid` pseudo-classes in our CSS. 
+
+
+
+
+
+
+
