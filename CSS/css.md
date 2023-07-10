@@ -311,5 +311,7 @@ element {
 }
 ```
 
-While there may be times when we want to limit the scope of a custom property, we may want to be able to use other custom properties on many, unrelated selectors. To do this, we can declare those custom properties on the `:root` pseudo-element, which is essentially the same thing as the `html` selector except it has a higher specificity.
+While there may be times when we want to limit the scope of a custom property, we may want to be able to use other custom properties on many, unrelated selectors. To do this, we can declare those custom properties on the `:root` pseudo-element, which is essentially the same thing as the `html` selector except it has a higher specificity. 
+
+Custom properties can also be utilised to create themes, for example separate themes for dark mode and light mode, and we can also adapt according to the user's operation systemic using media queries.
 
