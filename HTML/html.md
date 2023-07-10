@@ -82,3 +82,20 @@ To begin, we can enclose all the inputs a user will interact with on a form insi
 
 - The `action` attribute will contain a URL value that tells the form where it should send its data to be processed.
 - The `method` attribute tells the browser which HTTP request method it should use to submit the form. Two common form methods we will use are the `GET` and `POST` request methods. We use `GET` when we want to retrieve something from a server. We use `POST` to change something on the server,
+
+### Form creation
+
+We can create forms using form control elements. These allow us to interact with the form using buttons, text boxes, dropdowns and etc.
+
+One of the most versatile form control elements is the `input` element.  It accepts a `type` attribute which tells the browser what type of data it should expect and how it should render the input element. We also give our inputs a label to inform users what type of data they are expected to enter. Labels accept a `for` attribute, which associates it with a particular input. The input we want to associate with a label needs an `id` attribute with the same value as the label’s `for` attribute.
+
+This is an example of a basic form with the input element having the type of text and a label titled `First Name:`:
+
+```HTML
+<form action="example.com/path" method="post">
+  <label for="first_name">First Name:</label>
+  <input type="text" id="first_name">
+</form>
+```
+
+
