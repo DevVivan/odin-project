@@ -98,18 +98,18 @@ Another element which is not technically an input though but still useful is the
 
 We also give our inputs a label to inform users what type of data they are expected to enter. Labels accept a `for` attribute, which associates it with a particular input. The input we want to associate with a label needs an `id` attribute with the same value as the label’s `for` attribute.
 
-This is an example of a basic form with the input element having the type of text and a label titled `First Name:`:
+We can also put placeholders on our input elements by attaching a `placeholder` attribute to an input. The value will be the placeholder text we want to display in the input.
+
+Also, similar to how we use a `for` attribute for the labels, we use a `name` attribute for the input elements. We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend, where we send our data, know what each piece of data represents. This `name` attribute serves as a variable name for the input.
+
+This is an example of a basic form with the content recapped above:
 
 ```HTML
 <form action="example.com/path" method="post">
   <label for="first_name">First Name:</label>
-  <input type="text" id="first_name">
+  <input type="text" id="first_name" name="first_name" placeholder="Bob">
 </form>
 ```
-
-We can also put placeholders on our input elements by attaching a `placeholder` attribute to an input. The value will be the placeholder text we want to display in the input.
-
-Also, similar to how we use a `for` attribute for the labels, we use a `name` attribute for the input elements. We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend, where we send our data, know what each piece of data represents. This `name` attribute serves as a variable name for the input.
 
 We should also keep in mind that we can use any of the form control elements outside of the `<form>` element, even when we don’t have a backend server where we can send data.
 
