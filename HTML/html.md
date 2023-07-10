@@ -6,6 +6,7 @@
   * [Col and Colgroup](#col-and-colgroup)
   * [Captions](#captions)
   * [Adding Table Structure](#adding-table-structure)
+- [Forms](#forms)
 
 ## HTML Tables
 
@@ -74,3 +75,6 @@ As tables gradually become more and more complex, it is best to add table struct
 - The <thead> element must wrap the part of the table that is the header — this is usually the first row containing the column headings, but this is not necessarily always the case.
 - The <tfoot> element needs to wrap the part of the table that is the footer — this might be a final row with items in the previous rows summed, for example. 
 - The <tbody> element needs to wrap the other parts of the table content that aren't in the table header or footer. 
+
+## Forms
+
