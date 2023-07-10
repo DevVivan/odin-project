@@ -7,6 +7,7 @@
   * [Captions](#captions)
   * [Adding Table Structure](#adding-table-structure)
 - [Forms](#forms)
+  * [Creating Forms](#creating-forms)
 
 ## HTML Tables
 
