@@ -8,6 +8,7 @@
   * [Adding Table Structure](#adding-table-structure)
 - [Forms](#forms)
   * [Creating Forms](#creating-forms)
+  * [Validating Forms](#validating-forms)
 
 ## HTML Tables
 
@@ -189,4 +190,5 @@ We can also use the `legend` element directly after opening fieldset tags to giv
 </fieldset>
 ```
 
+### Validating Forms
 
