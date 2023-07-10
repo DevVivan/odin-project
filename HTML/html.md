@@ -84,7 +84,7 @@ To begin, we can enclose all the inputs a user will interact with on a form insi
 - The `action` attribute will contain a URL value that tells the form where it should send its data to be processed.
 - The `method` attribute tells the browser which HTTP request method it should use to submit the form. Two common form methods we will use are the `GET` and `POST` request methods. We use `GET` when we want to retrieve something from a server. We use `POST` to change something on the server,
 
-### Form creation
+### Creating Forms
 
 We can create forms using form control elements. These allow us to interact with the form using buttons, text boxes, dropdowns and etc.
 
