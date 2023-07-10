@@ -87,7 +87,14 @@ To begin, we can enclose all the inputs a user will interact with on a form insi
 
 We can create forms using form control elements. These allow us to interact with the form using buttons, text boxes, dropdowns and etc.
 
-One of the most versatile form control elements is the `input` element.  It accepts a `type` attribute which tells the browser what type of data it should expect and how it should render the input element. We also give our inputs a label to inform users what type of data they are expected to enter. Labels accept a `for` attribute, which associates it with a particular input. The input we want to associate with a label needs an `id` attribute with the same value as the label’s `for` attribute.
+One of the most versatile form control elements is the `input` element.  It accepts a `type` attribute which tells the browser what type of data it should expect and how it should render the input element. Some different types of inputs we can use in our forms are as follows:
+
+- Email inputs using `type="email"`
+- Password inputs using `type="password"`
+- Number inputs using `type="number"`
+- Date inputs using `type="date"`
+
+We also give our inputs a label to inform users what type of data they are expected to enter. Labels accept a `for` attribute, which associates it with a particular input. The input we want to associate with a label needs an `id` attribute with the same value as the label’s `for` attribute.
 
 This is an example of a basic form with the input element having the type of text and a label titled `First Name:`:
 
@@ -102,4 +109,5 @@ We can also put placeholders on our input elements by attaching a `placeholder` 
 
 Also, similar to how we use a `for` attribute for the labels, we use a `name` attribute for the input elements. We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend, where we send our data, know what each piece of data represents. This `name` attribute serves as a variable name for the input.
 
+We should also keep in mind that we can use any of the form control elements outside of the `<form>` element, even when we don’t have a backend server where we can send data.
 
