@@ -89,10 +89,11 @@ We can create forms using form control elements. These allow us to interact with
 
 One of the most versatile form control elements is the `input` element.  It accepts a `type` attribute which tells the browser what type of data it should expect and how it should render the input element. Some different types of inputs we can use in our forms are as follows:
 
-- Email inputs using `type="email"`
-- Password inputs using `type="password"`
-- Number inputs using `type="number"`
-- Date inputs using `type="date"`
+- Email inputs using `type="email"`.
+- Password inputs using `type="password"`.
+- Number inputs using `type="number"`.
+- Date inputs using `type="date"`.
+- Radio buttons using `type="radio"`. 
 
 Another element which is not technically an input though but still useful is the `<textarea>` element which allows users to enter a sizeable amount of free-form text, for example, a comment on a review or feedback form. The `<textarea>` element also has `rows` and `cols` attributes usually to allow us to specify an exact size for the `<textarea>` to take. 
 
