@@ -98,4 +98,8 @@ This is an example of a basic form with the input element having the type of tex
 </form>
 ```
 
+We can also put placeholders on our input elements by attaching a `placeholder` attribute to an input. The value will be the placeholder text we want to display in the input.
+
+Also, similar to how we use a `for` attribute for the labels, we use a `name` attribute for the input elements. We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend, where we send our data, know what each piece of data represents. This `name` attribute serves as a variable name for the input.
+
 
