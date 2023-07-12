@@ -329,3 +329,5 @@ We can specify columns and rows using the properties `grid-template-columns` and
   grid-template-rows: 50px 50px;
 }
 ```
+
+We can do this using a single shorthand property too: the shorthand `grid-template` property. Here we can define our rows and columns all at once and rows are defined before the slash and columns are defined after the slash.
