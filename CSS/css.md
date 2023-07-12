@@ -14,6 +14,7 @@
 - [Positioning](#positioning)
 - [CSS Functions](#css-functions)
 - [Custom Properties](#custom-properties)
+- [CSS Grid](#css-grid)
 
 ## CSS Units
 
