@@ -359,4 +359,4 @@ We could do this to all of our grid items and give each item a `grid-area` value
   }
   ```
 
-- Fr units: 
+- Fractional units: We can also use `fr` units as a way of distributing whatever remaining space is left in the grid. This allows grid items to fill up the entire width and height of the grid - essentially, stretch.
