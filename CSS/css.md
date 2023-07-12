@@ -15,6 +15,8 @@
 - [CSS Functions](#css-functions)
 - [Custom Properties](#custom-properties)
 - [CSS Grid](#css-grid)
+  * [Explicit vs Implicit Grid](#explicit-vs-implicit-grid)
+  * [Gap](#gap)
 
 ## CSS Units
 
