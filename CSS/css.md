@@ -341,7 +341,7 @@ When we add additional items to our container, they get slotted automatically in
 
 We can adjust gap sizes for rows and columns separately using the `column-gap` and `row-gap` properties. Furthermore, we can use a shorthand property called `gap` to set both `row-gap` and `column-gap`.
 
-### Positioning
+### Positioning with Grid
 
 We can also position cells using the `grid-column-start`, `grid-column-end`, `grid-row-start` and `grid-row-end` properties. There is also a shorthand to combine `grid-row-start` / `grid-column-start` / `grid-row-end` / `grid-column-end` into one line using `grid-area`.
 
