@@ -16,7 +16,6 @@
 - [Custom Properties](#custom-properties)
 - [CSS Grid](#css-grid)
   * [Explicit vs Implicit Grid](#explicit-vs-implicit-grid)
-  * [Gap](#gap)
 
 ## CSS Units
 
@@ -338,3 +337,12 @@ We can do this using a single shorthand property too: the shorthand `grid-templa
 
 When we add additional items to our container, they get slotted automatically into rows we did not define. This is because of the implicit grid concept and it’s how CSS Grid is able to automatically place grid items when we haven’t explicitly defined the layout for them. We can set the implicit grid track sizes using the `grid-auto-rows` and `grid-auto-columns` properties. In this way, we can ensure any new tracks the implicit grid makes for extra content are set at values that we defined. By default, CSS Grid will add additional content with implicit rows, but we can make additional content fit into columns using the `grid-auto-flow: column` property and those implicit track sizes can be defined with the `grid-auto-columns` property.
 
+### Gap
+
+We can adjust gap sizes for rows and columns separately using the `column-gap` and `row-gap` properties. Furthermore, we can use a shorthand property called `gap` to set both `row-gap` and `column-gap`.
+
+### Positioning
+
+We can also position cells using the `grid-column-start`, `grid-column-end`, `grid-row-start` and `grid-row-end` properties. There is also a shorthand to combine `grid-row-start` / `grid-column-start` / `grid-row-end` / `grid-column-end` into one line using `grid-area`.
+
+We could do this to all of our grid items and give each item a `grid-area` value as a name. Then we can map out the whole structure with the grid container using `grid-template-areas`. We can also use a `.` to indicate empty cells.
