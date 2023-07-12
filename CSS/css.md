@@ -360,3 +360,4 @@ We could do this to all of our grid items and give each item a `grid-area` value
   ```
 
 - Fractional units: We can also use `fr` units as a way of distributing whatever remaining space is left in the grid. This allows grid items to fill up the entire width and height of the grid - essentially, stretch.
+- We can use the `minmax()` and `clamp()` functions to make our grids more responsive too!
