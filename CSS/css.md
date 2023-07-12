@@ -315,3 +315,16 @@ While there may be times when we want to limit the scope of a custom property, w
 
 Custom properties can also be utilised to create themes, for example separate themes for dark mode and light mode, and we can also adapt according to the user's operation systemic using media queries.
 
+## CSS Grid
+
+For using Grid in CSS, we first make an element a grid container with the property `display: grid` or `display: inline-grid`. Then, only the direct child elements will become grid items. If we had another element as a child under one of these child elements it would not be a grid item. 
+
+We can specify columns and rows using the properties `grid-template-columns` and `grid-template-rows`. For example, to create a grid of two columns and two rows to place 4 grid items:
+
+```CSS
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-template-rows: 50px 50px;
+}
+```
