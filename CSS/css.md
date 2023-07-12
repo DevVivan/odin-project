@@ -331,3 +331,8 @@ We can specify columns and rows using the properties `grid-template-columns` and
 ```
 
 We can do this using a single shorthand property too: the shorthand `grid-template` property. Here we can define our rows and columns all at once and rows are defined before the slash and columns are defined after the slash.
+
+### Explicit vs Implicit Grid
+
+When we add additional items to our container, they get slotted automatically into rows we did not define. This is because of the implicit grid concept and it’s how CSS Grid is able to automatically place grid items when we haven’t explicitly defined the layout for them. We can set the implicit grid track sizes using the `grid-auto-rows` and `grid-auto-columns` properties. In this way, we can ensure any new tracks the implicit grid makes for extra content are set at values that we defined. By default, CSS Grid will add additional content with implicit rows, but we can make additional content fit into columns using the `grid-auto-flow: column` property and those implicit track sizes can be defined with the `grid-auto-columns` property.
+
