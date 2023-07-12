@@ -349,3 +349,14 @@ We can also position cells using the `grid-column-start`, `grid-column-end`, `gr
 We could do this to all of our grid items and give each item a `grid-area` value as a name. Then we can map out the whole structure with the grid container using `grid-template-areas`. We can also use a `.` to indicate empty cells.
 
 ### Useful Grid Properties
+
+- Repeat: We can use the `repeat()` CSS function to define the number of rows or columns and the size we want them to be without having to manually type out each individual track’s size. For example:
+
+  ```CSS
+  .grid-container {
+  grid-template-rows: repeat(2, 150px);
+  grid-template-columns: repeat(5, 150px);
+  }
+  ```
+
+- Fr units: 
