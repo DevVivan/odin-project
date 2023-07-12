@@ -16,6 +16,7 @@
 - [Custom Properties](#custom-properties)
 - [CSS Grid](#css-grid)
   * [Explicit vs Implicit Grid](#explicit-vs-implicit-grid)
+  * [Useful Grid Properties](#useful-grid-properties)
 
 ## CSS Units
 
@@ -346,3 +347,5 @@ We can adjust gap sizes for rows and columns separately using the `column-gap` a
 We can also position cells using the `grid-column-start`, `grid-column-end`, `grid-row-start` and `grid-row-end` properties. There is also a shorthand to combine `grid-row-start` / `grid-column-start` / `grid-row-end` / `grid-column-end` into one line using `grid-area`.
 
 We could do this to all of our grid items and give each item a `grid-area` value as a name. Then we can map out the whole structure with the grid container using `grid-template-areas`. We can also use a `.` to indicate empty cells.
+
+### Useful Grid Properties
