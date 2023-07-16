@@ -17,6 +17,7 @@ This is a log of all projects completed as assigned by [*The Odin Project curric
 
 | **Project** | **Live Preview** | **Source Code** |
 | :------------ | :--------: | :---------: |
+| #7 Dashboard | [Preview](https://devvivan.github.io/odin-dashboard/) | [GitHub](https://github.com/DevVivan/odin-dashboard)
 | #6 Sign-up Form | [Preview](https://devvivan.github.io/odin-signup-form/) | [Github](https://github.com/DevVivan/odin-signup-form) |
 
 
