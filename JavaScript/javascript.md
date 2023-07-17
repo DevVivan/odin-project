@@ -378,3 +378,8 @@ const player = new Player('steve', 'X')
 
 ### The prototype
 
+All objects in JavaScript have a `prototype`. Stated simply, the `prototype` is another object that the original object inherits from, which is to say, the original object has access to all of its prototype’s methods and properties.
+
+We can access an object's prototype using the `Object.getPrototypeOf()` function. This can also be done using the `__proto__` property of an object but this is deprecated now. In some areas, like legacy code, we might also come across `[[Prototype]]`. 
+
+Just as we use `Object.getPrototypeOf()` to ‘get’ or view the prototype of an object, we can use `Object.setPrototypeOf()` to ‘set’ or mutate it. `Object.setPrototypeOf()` takes two arguments - the first is the one which inherits and the second argument is the one which we want the first argument to inherit from. 
