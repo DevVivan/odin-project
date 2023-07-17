@@ -7,6 +7,7 @@
 - [Arrays](#arrays)
   * [Array Methods](#array-methods)
 - [Objects](#objects)
+- [Object Constructors](#object-constructors)
 
 ## Strings
 
@@ -357,3 +358,23 @@ const person2 = {
   },
 };
 ```
+
+## Object Constructors
+
+When we have a specific type of object we would like to duplicate, we should use object constructors as such:
+
+```javascript
+function Player(name, marker) {
+  this.name = name
+  this.marker = marker
+}
+```
+
+Which we can use by calling the function with the `new` keyword:
+
+```javascript
+const player = new Player('steve', 'X')
+```
+
+### The prototype
+
