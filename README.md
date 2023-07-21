@@ -13,13 +13,19 @@ This is a repository for the tracking of my progress on [*The Odin Project*](htt
 
 This is a log of all projects completed as assigned by [*The Odin Project curriculum*](https://www.theodinproject.com/dashboard).
 
+### JavaScript
+
+| **Project** | **Live Preview** | **Source Code** |
+| :------------ | :--------: | :---------: |
+| #8 Library | [Preview](https://devvivan.github.io/odin-library/) | [Github](https://github.com/DevVivan/odin-library) |
+
+
 ### Intermediate HTML & CSS
 
 | **Project** | **Live Preview** | **Source Code** |
 | :------------ | :--------: | :---------: |
 | #7 Dashboard | [Preview](https://devvivan.github.io/odin-dashboard/) | [GitHub](https://github.com/DevVivan/odin-dashboard)
 | #6 Sign-up Form | [Preview](https://devvivan.github.io/odin-signup-form/) | [Github](https://github.com/DevVivan/odin-signup-form) |
-
 
 ### Foundations
 
