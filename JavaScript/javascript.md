@@ -8,6 +8,7 @@
   * [Array Methods](#array-methods)
 - [Objects](#objects)
 - [Object Constructors](#object-constructors)
+- [Factory Functions](#factory-functions)
 
 ## Strings
 
@@ -390,4 +391,21 @@ As a rule of thumb, we should create object methods for a constructor using prot
 Player.prototype.sayName = function() {
   console.log('Player')
 }
+```
+
+## Factory Functions
+
+Factory functions are similar to object constructors but they simply set up and return the new object when you call the function as such:
+
+```js
+const personFactory = (name, age) => {
+  const sayHello = () => console.log('hello!');
+  return { name, age, sayHello };
+};
+
+const jeff = personFactory('jeff', 27);
+
+console.log(jeff.name); // 'jeff'
+
+jeff.sayHello(); // calls the function and logs 'hello!'
 ```
