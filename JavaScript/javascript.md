@@ -9,6 +9,7 @@
 - [Objects](#objects)
 - [Object Constructors](#object-constructors)
 - [Factory Functions](#factory-functions)
+- [The Module Pattern](#the-module-pattern)
 
 ## Strings
 
@@ -395,7 +396,7 @@ Player.prototype.sayName = function() {
 
 ## Factory Functions
 
-Factory functions are similar to object constructors but they simply set up and return the new object when you call the function as such:
+Factories are simply plain old JavaScript functions that return objects for us to use in our code. Using factories is a powerful way to organize and contain the code we’re writing. Factory functions are similar to object constructors but they simply set up and return the new object when you call the function as such:
 
 ```js
 const personFactory = (name, age) => {
@@ -417,4 +418,16 @@ We can also use an object shorthand when creating an object where we are referri
 ```js
 return {name: name, age: age, sayHello: sayHello}; 
 return {name, age, sayHello}; // condensed object shorthand
+```
+
+## The Module Pattern
+
+Modules are actually very similar to factory functions and the main difference is how they’re created. The concept is simple: we write a function, wrap it in parentheses, and then immediately call the function by adding `()` to the end of it. They are an example of an  IIFE (Immediately Invoked Function Expression). This is an example:
+
+```js
+(function() {
+  'use strict';
+  // Your code here
+  // All function and variables are scoped to this function
+})();
 ```
