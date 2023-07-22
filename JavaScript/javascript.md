@@ -409,3 +409,12 @@ console.log(jeff.name); // 'jeff'
 
 jeff.sayHello(); // calls the function and logs 'hello!'
 ```
+
+### Object shorthand
+
+We can also use an object shorthand when creating an object where we are referring to a variable that has the exact same name as the object property we're creating like so:
+
+```js
+return {name: name, age: age, sayHello: sayHello}; 
+return {name, age, sayHello}; // condensed object shorthand
+```
