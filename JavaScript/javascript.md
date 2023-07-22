@@ -431,3 +431,5 @@ Modules are actually very similar to factory functions and the main difference i
   // All function and variables are scoped to this function
 })();
 ```
+
+It is often good to take as a rule of thumb: if we only ever need ONE of something (such as a game's display board), we should use a module. If we need multiples of something (such as players), we should create them with factories.
