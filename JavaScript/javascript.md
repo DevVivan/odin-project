@@ -470,4 +470,5 @@ We can also use the `extends` keyword to create a class that is a child of anoth
 class ChildClass extends ParentClass { /* … */ }
 ```
 
+Alongside this, the `super` keyword can be used to access properties on an object literal or class's [[Prototype]] using expressions such as the `super.prop`, ` super(...args)` and `super[expr]` expressions.
 
