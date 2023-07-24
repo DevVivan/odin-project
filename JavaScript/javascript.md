@@ -459,3 +459,15 @@ let User = class {
   }
 };
 ```
+
+We can use the `constructor` method as a special method of a class for creating and initializing an object instance of that class.
+
+### Extends
+
+We can also use the `extends` keyword to create a class that is a child of another class with syntax as below:
+
+```js
+class ChildClass extends ParentClass { /* … */ }
+```
+
+
