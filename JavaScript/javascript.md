@@ -10,6 +10,7 @@
 - [Object Constructors](#object-constructors)
 - [Factory Functions](#factory-functions)
 - [The Module Pattern](#the-module-pattern)
+- [Classes](#classes)
 
 ## Strings
 
@@ -433,3 +434,28 @@ Modules are actually very similar to factory functions and the main difference i
 ```
 
 It is often good to take as a rule of thumb: if we only ever need ONE of something (such as a game's display board), we should use a module. If we need multiples of something (such as players), we should create them with factories.
+
+## Classes
+
+The basic syntax for a class is as such:
+
+```js
+class MyClass {
+  // class methods
+  constructor() { ... }
+  method1() { ... }
+  method2() { ... }
+  method3() { ... }
+  ...
+}
+```
+
+Just like functions, classes can be defined inside another expression as so:
+
+```js
+let User = class {
+  sayHi() {
+    alert("Hello");
+  }
+};
+```
