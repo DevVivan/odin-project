@@ -472,3 +472,22 @@ class ChildClass extends ParentClass { /* … */ }
 
 Alongside this, the `super` keyword can be used to access properties on an object literal or class's [[Prototype]] using expressions such as the `super.prop`, ` super(...args)` and `super[expr]` expressions.
 
+## ES6 Modules
+
+We can `import` and `export` code modules across different files to reuse code efficiently. This is as so:
+
+```js
+// a file called functionOne.js
+const functionOne = () => console.log('FUNCTION ONE!');
+
+export { functionOne };
+```
+
+```js
+// another JS file
+import { functionOne } from './functionOne.js';
+
+functionOne(); // this should work as expected!
+```
+
+
