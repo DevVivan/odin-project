@@ -17,6 +17,7 @@ This is a log of all projects completed as assigned by [*The Odin Project curric
 
 | **Project** | **Live Preview** | **Source Code** |
 | :------------ | :--------: | :---------: |
+| #9 Tic Tac Toe | [Preview](https://devvivan.github.io/odin-tic-tac-toe/) | [GitHub](https://github.com/DevVivan/odin-tic-tac-toe) | 
 | #8 Library | [Preview](https://devvivan.github.io/odin-library/) | [Github](https://github.com/DevVivan/odin-library) |
 
 
