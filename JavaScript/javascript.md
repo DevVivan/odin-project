@@ -11,6 +11,7 @@
 - [Factory Functions](#factory-functions)
 - [The Module Pattern](#the-module-pattern)
 - [Classes](#classes)
+- [ES6 Modules](#es6-modules)
 
 ## Strings
 
